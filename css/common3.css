@@ -1,0 +1,33 @@
+body, ul ,li , a, h1, h2 { margin: 0; padding:0;}
+ul li { list-style: none;}
+a { text-decoration: none;}
+header { width:1903px; height:100px; margin: 0 auto; }
+
+h1 { text-align: center; font-size:32px; color:#161094; padding:50px 0; }
+#what { width:1000px; height:150px; margin: 0 auto; padding-top:100px;text-align: center; }
+#what h2 { color:#161094; }
+
+#site { width: 450px; height: 200px; margin: 0 auto; }
+#site h2 { text-align: center; color:#161094; padding-bottom:50px; }
+#site ul { width:420px; height:50px; margin: 0 auto; }
+#site ul li { float: left; margin-left:70px; width:100px; height:50px; font-size:18px;
+            line-height: 50px; text-align: center; background:#ffd012; border-radius: 15px 15px;}
+#site ul li:hover { background:yellow;}
+#site ul li a { color:#000; width:100%; height:100%; display: block;}
+
+#port { width:100%; height:3800px; background:url(../images/dm01.jpg) no-repeat center / cover; }
+
+footer {
+          width:100%;
+          height:180px;
+          background:#797979;
+          padding-top:10px;
+          margin: 0 auto;
+        }
+footer p {
+            text-align: center;
+            color:#fff;
+            font-size:14px;
+            line-height:24px;
+            text-transform: uppercase;
+          }

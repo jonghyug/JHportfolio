@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+body,div { margin:0; padding:0; }
+ul li { list-style: none;}
+ul { width:700px; height:130px; float: left; display:block; }
+li { width: 130px; height:130px; margin-right:8px;float: left; border: 1px solid #000; }
+#color li a { width:100%; height:100%; display:block; }
+
+#color .red > a { background:pink; }
+#color .green > a { background:lightgreen; }
+#color .blue > a { background:lightblue; }
+#color .purple > a { background:purple; }
+#color .yellow > a { background:yellow; }
+
+#div { width:100%; height:1000px;}
+
+.red1 { background:pink; }
+.green1 { background:lightgreen; }
+.blue1 { background:lightblue; }
+.purple1 { background:purple; }
+.yellow1 { background:yellow; }

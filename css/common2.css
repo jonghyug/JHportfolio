@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body, ul ,li , a, h1, h2 { margin: 0; padding:0;}
+ul li { list-style: none;}
+a { text-decoration: none;}
+header { width:1903px; height:100px; margin: 0 auto; }
+
+h1 { text-align: center; font-size:32px; color:hotpink; padding:50px 0; }
+
+#what { width:1000px; height:150px; margin: 0 auto; padding-top:100px;text-align: center; }
+#what h2 { color:hotpink; }
+
+#top { width:80px; height:80px; background:pink; opacity:1; color:#fff; border-radius: 75px 75px; border:1px solid #fff;
+      position: fixed; top:85%; left: 95%; text-align: center; line-height: 80px;}
+#top h2 a { width:100%; height: 100%; color:#fff; display:block; }
+
+
+#site { width: 1150px; height: 200px; margin: 0 auto; }
+#site h2 { text-align: center; color:hotpink; padding-bottom:50px; }
+#site ul { width:860px; height:150px; margin: 0 auto; }
+#site ul li { float: left; margin-left:60px; width:100px; height:50px; font-size:18px; line-height: 50px; text-align: center; background:pink; border-radius: 15px 15px;}
+#site ul li:hover { background:hotpink;}
+#site ul li a { color:#fff; width:100%; height:100%; display: block;}
+
+#port1 { width:1903px; height:2319px; background:url(../images/doramaabout.jpg) no-repeat center / cover; }
+
+footer {
+          width:1903px;
+          height:180px;
+          background:#797979;
+          padding-top:10px;
+        }
+footer p {
+            /* font-family: 'CookieRun-Regular';  */
+            text-align: center;
+            color:#fff;
+            font-size:14px;
+            line-height:24px;
+            text-transform: uppercase;
+          }

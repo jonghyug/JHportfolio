@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+div,ul,li,a, body { margin:0; padding:0; }
+ul li { list-style: none;}
+
+body { width:100%; height:100vh; }
+div { width:100%; height:100vh; }
+ul { width:100%; height:100vh; }
+li { width:20%; height:100vh; float:left; }
+a { width:100%; height:100%; display:block; }
+
+.list { background:url(../images/bt1.jpg) no-repeat center / cover; }
+.star { background:url(../images/bt2.jpg) no-repeat center / cover; }
+.spin { background:url(../images/bt3.jpg) no-repeat center / cover; }
+.maple { background:url(../images/bt4.jpg) no-repeat center / cover; }
+.sel { background:url(../images/bt5.jpg) no-repeat center / cover; }
+
+.list:hover { background:url(../images/bt11.jpg) no-repeat center / cover; }
+.star:hover { background:url(../images/bt21.jpg) no-repeat center / cover; }
+.spin:hover { background:url(../images/bt31.jpg) no-repeat center / cover; }
+.maple:hover { background:url(../images/bt41.jpg) no-repeat center / cover; }
+.sel:hover { background:url(../images/bt51.jpg) no-repeat center / cover; }

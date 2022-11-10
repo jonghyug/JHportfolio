@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+body,div,ul,li { margin:0; padding:0; }
+ul li { list-style: none;}
+#div { width:1500px; height:920px; margin: 0 auto; background:yellow; display:block; }
+#div1 { width:200px; height:920px; border: 1px solid #000; display:block; float:left;
+        }
+#div1 ul { width:180px; height:900px; margin: 10px 10px; background:lightyellow;}
+#div1 ul li {  width:180px; height:94px; margin:5px 0; border: 1px solid #000;}
+
+#div2 { width:1270px; height:900px; margin: 10px 10px; border:1px solid #000; float:right; }
+
+.img1 { background:url(../images/maple1.png) no-repeat center / cover; }
+.img2 { background:url(../images/maple2.png) no-repeat center / cover; }
+.img3 { background:url(../images/maple3.png) no-repeat center / cover; }
+.img4 { background:url(../images/maple4.png) no-repeat center / cover; }
+.img5 { background:url(../images/maple5.png) no-repeat center / cover; }
+.img6 { background:url(../images/maple6.png) no-repeat center / cover; }
+.img7 { background:url(../images/maple7.png) no-repeat center / cover; }
+.img8 { background:url(../images/maple8.png) no-repeat center / cover; }
+.img9 { background:url(../images/maple9.png) no-repeat center / cover; }
